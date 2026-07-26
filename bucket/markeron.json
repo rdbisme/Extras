@@ -1,12 +1,12 @@
 {
-    "version": "2.5.1",
+    "version": "2.5.3",
     "description": "Lightweight open-source screen annotation tool with click-through mode.",
     "homepage": "https://markeron.cn",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ifer47/markeron/releases/download/v2.5.1/MarkerOn_2.5.1_x64-setup.exe#/dl.7z",
-            "hash": "6eb49d89d24f84d51bdf59ab9ce14aac32ab2878ef7d8bd11dd7c8dd50c19377"
+            "url": "https://github.com/ifer47/markeron/releases/download/v2.5.3/MarkerOn_2.5.3_x64-setup.exe#/dl.7z",
+            "hash": "6be44b283260ad0fc8f3309f02a49e6780c3f352461b57c10e269ba23f9e99f8"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse -ErrorAction Ignore",
